@@ -6,7 +6,7 @@ var xpath = require('xpath')
   , dom = require('xmldom').DOMParser
 const fs = require('fs');
 var m;
-var send = '{"result":""}';
+var send ;
 app.use(bodyParser.json());  
 
 app.get('/',function(req,res){  
