@@ -26,8 +26,6 @@ axios.get('https://www.cdiscount.com/high-tech/casques-baladeur-hifi/l-10654.htm
 });
 });
 
-
-
 app.listen('3001','localhost', function(){
     console.log('running on 3001...');
 });
